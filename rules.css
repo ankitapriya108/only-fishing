@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader nav.navbar.navbar-expand-lg {
+    padding: 20px;
+    background-color:#526d75;
+}
+.mainheader a.nav-link {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 2px 20px !important;
+}
+.mainheader li.nav-item {
+    padding: 0 5px;
+}
+.mainheader  button {
+    background-color: #002461;
+    color: white;
+}
+button.btn {
+    border-radius: 25px;
+    margin-left: 240px;   
+}
+.nav-item a:hover {
+    color: white;
+   background: #2664cc;
+}
+.btn:hover{
+   background: rgba(255, 255, 255, 0.676);
+}
+
+.dayview{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://www.onlyfishing.fans/storage/banner/gp4NCaPyzC0C05Cvu0gzFmes7aQnECeaQtgloF8x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; 
+    position: relative; 
+}
+.headingbox
+{
+    height: 80px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.793);
+    margin-left: 500px;
+   position: absolute;
+   top: 130px;
+   
+}
+.headingbox h1{
+    font-size:33px ;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.underline {
+    border-top: 4px solid #06fed7;
+    margin: 0 220px;
+}
+.blue{
+    height: 1500px;
+    width: 100%;
+    background-color:#acddfd80 ;
+}
+.first{
+ background-color:white ;
+ color: black;
+ border-radius: 20px;
+ box-shadow: 10px 10px 10px grey;
+}
+.first h4{
+    font-weight: bold;
+}
+.background{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.onlyfishing.fans/storage/banner/1uKmSNdBtddviZTYsAO9jNUt92QDWkjxghBk0kzg.png);
+    background-repeat: no-repeat;
+}
+.transparent{
+    height: 400px;
+    width: 100%;
+    background-color: #00000085;
+}
+.footer_heading{
+    color: white;
+}
+.footer_heading h1{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.footer_heading ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_heading ul li:hover{
+    color: #06fed7;
+    text-decoration: underline;
+}
+.footer_heading ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer_heading ul li a:hover{
+    color: #06fed7;
+}
+.myrow {
+    padding-top: 110px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #001943;
+}
+.left{
+    color: white;
+    padding-top: 20px;
+}
+.right{
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+}
+.left p:hover{
+    color:#06fed7 ;
+}
+.right p a{
+    text-decoration: none;
+}
+.right p a:hover{
+    color:#06fed7 ;
+}

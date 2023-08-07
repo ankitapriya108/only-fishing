@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader nav.navbar.navbar-expand-lg {
+    padding: 20px;
+    background-color:#526d75;
+}
+.mainheader a.nav-link {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 2px 20px !important;
+}
+.mainheader li.nav-item {
+    padding: 0 5px;
+}
+
+
+.mainheader  button {
+    background-color: #002461;
+    color: white;
+}
+button.btn {
+    border-radius: 25px;
+    margin-left: 240px;
+    
+}
+.image{
+height: 100vh;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-item a:hover {
+     color: white;
+    background: #2664cc;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.676);
+}
+.box
+{
+    height: 1680px;
+    width: 100%;
+    background-color: #d5eefe;
+}
+.heading h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top:100px ;
+    font-weight: bold;
+}
+.line{
+    border-top:4px solid #06fed7 ;
+    margin: 0 580px;
+}
+.para h3 {
+    text-align: center;
+    padding-top: 35px;
+}
+.para p{
+    text-align: center;
+    padding-top:20px ;
+}
+.underline {
+    border-top: 4px solid #06fed7;
+    margin-right: 1195px;
+    
+}
+.title {
+    font-size: 20px;
+    padding-top: 50px;
+}
+.titleone {
+    font-size: 20px;
+    padding-top: 50px;
+}
+.photo{
+    height: 325px;
+    width: 415px;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    margin-top: 50px;
+}
+.boxtwo{
+    height: 1200px;
+    width: 100%;
+    background-color: #8fd3ff;
+}
+ .btn-primary{
+    margin-left: 280px;
+}
+i.fa-solid.fa-user-tie {
+    font-size: 50px;
+    position: absolute;
+    top: 85px;
+}
+.card-body{
+    position: relative;
+}
+.card-body h5{
+    text-align: center;
+    color: #2664cc;
+    font-weight: bold;
+
+    position: absolute;
+    left: 88px;
+    top: 100px;
+}
+/* .mycard{
+    border-radius: 25px;
+} */
+.mycard:hover{
+    box-shadow:10px 10px 10px #526d75;
+}
+.link{
+    margin-left: 80px;
+}
+.background{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.onlyfishing.fans/storage/banner/1uKmSNdBtddviZTYsAO9jNUt92QDWkjxghBk0kzg.png);
+    background-repeat: no-repeat;
+}
+.transparent{
+    height: 400px;
+    width: 100%;
+    background-color: #00000085;
+}
+.footer_heading{
+    color: white;
+}
+.footer_heading h1{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.footer_heading ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_heading ul li:hover{
+    color: #06fed7;
+    text-decoration: underline;
+}
+.footer_heading ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer_heading ul li a:hover{
+    color: #06fed7;
+}
+.myrow {
+    padding-top: 110px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #001943;
+}
+.left{
+    color: white;
+    padding-top: 20px;
+}
+.right{
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+}
+.left p:hover{
+    color:#06fed7 ;
+}
+.right p a{
+    text-decoration: none;
+}
+.right p a:hover{
+    color:#06fed7 ;
+}
+
+.map iframe{
+    width: 100%;
+}

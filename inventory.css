@@ -1,0 +1,286 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader nav.navbar.navbar-expand-lg {
+    padding: 20px;
+    background-color:#526d75;
+}
+.mainheader a.nav-link {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 2px 20px !important;
+}
+.mainheader li.nav-item {
+    padding: 0 5px;
+}
+.mainheader  button {
+    background-color: #002461;
+    color: white;
+}
+button.btn {
+    border-radius: 25px;
+    margin-left: 240px;   
+}
+.nav-item a:hover {
+    color: white;
+   background: #2664cc;
+}
+.btn:hover{
+   background: rgba(255, 255, 255, 0.676);
+}
+
+.dayview{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://www.onlyfishing.fans/storage/banner/gp4NCaPyzC0C05Cvu0gzFmes7aQnECeaQtgloF8x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; 
+    position: relative; 
+}
+.headingbox
+{
+    height: 80px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.793);
+    margin-left: 500px;
+   position: absolute;
+   top: 130px;
+   
+}
+.headingbox h1{
+    font-size:33px ;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.underline {
+    border-top: 4px solid #06fed7;
+    margin: 0 220px;
+}
+.belowline{
+    height: 100px;
+    width: 100%;
+    background-color: #526d75;
+    padding-top: 35px;
+}
+.belowline{
+    display: flex;
+}
+form {
+    margin-left: 195px;
+    font-size: 17px;
+}
+.items{
+    border-radius: 20px;
+}
+select {
+    border: 1px solid white;
+    height: 45px;
+    width: 175px;
+    border-radius: 25px;
+    background-color: #526d75;
+    color: white;
+    /* font-size: 15px; */
+   
+}
+select#water {
+    margin-left: 20px;
+font-size: 17px;
+}
+select#water:hover{
+    background-color: #2664cc;
+}
+select#sort {
+    margin-left: 20px;
+}
+select#sort:hover{
+    background-color: #2664cc;
+}
+.search {
+    width: 120px;
+    height: 45px;
+    color: white;
+    background-color: #002461;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.search:hover{
+    background-color: #526d75;
+    border: 1px solid white;
+}
+.reset {
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color:#526d75;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.reset:hover{
+    background-color: #002461;
+}
+.blue{
+    height: 1185px;
+    width: 100%;
+    background-color: #acddfd80;
+}
+.fishingimage{
+    height: 327px;
+    width: 378px;
+}
+.fishingimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fishingimage{
+    margin-top: 50px;
+
+}
+.fullbox{
+    margin: 0;
+}
+/* .fullbox{
+    margin-top: 50px;
+} */
+.one{
+    height: 80px;
+    width: 80px;
+    margin-left: 8px;
+}
+.one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.two{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+.two img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.twoimages{
+    display: flex;
+}
+.twoimages{
+    margin-top: 50px;
+}
+.information{
+    height: 327px;
+    width: 378px;
+    background-color: white;
+    margin-top: 50px;
+    position: relative;
+}
+.information h4{
+    padding-top: 50px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+i.fa-solid.fa-user-tie {
+    position: absolute;
+    top: 53px;
+    left: 290px;
+    font-size: 45px;
+}
+.list ul{
+    margin-top: 20px;
+    /* margin-bottom: 1rem; */
+}
+.information p {
+    position: absolute;
+    top: 120px;
+    left: 282px;
+    color: #2664cc;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastbtn a {
+    border-radius: 10px;
+    /* height: 30px;
+    width: 30px; */
+    background-color: #002461;
+    color: white;
+}
+.background{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.onlyfishing.fans/storage/banner/1uKmSNdBtddviZTYsAO9jNUt92QDWkjxghBk0kzg.png);
+    background-repeat: no-repeat;
+}
+.transparent{
+    height: 400px;
+    width: 100%;
+    background-color: #00000085;
+}
+.footer_heading{
+    color: white;
+}
+.footer_heading h1{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.footer_heading ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_heading ul li:hover{
+    color: #06fed7;
+    text-decoration: underline;
+}
+.footer_heading ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer_heading ul li a:hover{
+    color: #06fed7;
+}
+.myrow {
+    padding-top: 110px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #001943;
+}
+.left{
+    color: white;
+    padding-top: 20px;
+}
+.right{
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+}
+.left p:hover{
+    color:#06fed7 ;
+}
+.right p a{
+    text-decoration: none;
+}
+.right p a:hover{
+    color:#06fed7 ;
+}
+
